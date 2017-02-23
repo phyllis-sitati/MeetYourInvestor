@@ -55,13 +55,13 @@
 				<div class="col-lg-6" height="30px" style="background-color: blue; "></div>
 				<div class="col-lg-1" ></div>
 				<div class="col-lg-3 login-area">
-					<h4>login</h4><br>
+					<h4 style="text-align: center;">Login</h4><br>
 					Username
-					<input type="text" name="name"><br>
+					<input type="text" name="name" required="Please enter your username" maxlength="20"><br>
 					Password
-					<input type="password" name="password"><br>
+					<input type="password" name="password" required="Please enter a password" maxlength="20"><br>
 					<input type="radio" name="keepin">Keep me logged in<br>
-					<input type="submit" name="login" value="login"><br>
+					<input class="btn btn-lg btn-success" type="submit" name="login" value="login"><br>
 					<a href="#">forgetten password?</a><br><br>
 					<h5>Don't have an account?</h5>
 					<button class="btn btn-lg btn-primary">Register</button>
