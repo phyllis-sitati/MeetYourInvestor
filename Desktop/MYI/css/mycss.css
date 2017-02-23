@@ -1,16 +1,26 @@
 
+/*css for home page*/
 .login-area{
 	padding: 4%;
 	background-color: white;
-	border-radius: 10%;
+	border-radius: 5%;
+	margin-left: 0%;
 }
 
 body{
 	background-color: black;
 }
+footer{
+	margin:0;
+	height: 50px;
+}
+footer div{
+	color: white;
+	background-color: #333;
+}
 
-/*for the slider*/
-/* jssor slider bullet navigator skin 05 css */
+/*css for the carousel*/
+ /* jssor slider bullet navigator skin 05 css */
         /*
         .jssorb05 div           (normal)
         .jssorb05 div:hover     (normal mouseover)
@@ -60,5 +70,3 @@ body{
         .jssora12r:hover { background-position: -195px -37px; }
         .jssora12l.jssora12ldn { background-position: -256px -37px; }
         .jssora12r.jssora12rdn { background-position: -315px -37px; }
-
-    
